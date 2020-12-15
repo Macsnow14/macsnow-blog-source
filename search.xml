@@ -43,6 +43,7 @@
 </li>
 </ol>
 <p>那我们开始吧！</p>
+<a id="more"></a>
 <h2 id="裸机运行-Prometheus-概念验证"><a href="#裸机运行-Prometheus-概念验证" class="headerlink" title="裸机运行 Prometheus 概念验证"></a>裸机运行 Prometheus 概念验证</h2><p>首先第一直觉是在裸机上做概念验证，先跑起来再对进一步的配置做实验，最终，当我们理解了 Prometheus 的各个配置项之后，重新部署到 K8s 上应当是信手拈来。</p>
 <blockquote>
 <p>我想尝试偷懒，搜索教程博客之后发现都不清不楚并且大部分都已经过期了，结果浪费半天时间还得老老实实去官网读文档。</p>

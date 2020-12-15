@@ -30,7 +30,7 @@
 <meta property="og:locale" content="zh-Hans">
 <meta property="og:image" content="https://blog.thrimbda.com/uploads/2020/11/05/node-load.png">
 <meta property="og:image" content="https://blog.thrimbda.com/uploads/2020/11/05/node-exporter-target.png">
-<meta property="og:updated_time" content="2020-12-15T03:00:14.883Z">
+<meta property="og:updated_time" content="2020-12-15T03:04:38.017Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="在 K8s 单节点集群上手动搭建 Prometheus">
 <meta name="twitter:description" content="本文的目标读者是刚刚开始接触监控系统，以及对 Prometheus 知之甚少的弱势群体（一如写就本文时候的笔者） 本文中用于搭建 Prometheus 的环境：  K8s version: 1.19.3 Prometheus version: 2.22.0 操作系统：Archlinux at 2020.11 配置了 hosts，Devbox 的域名为 devbox  ⚠️ 请注意：本文列出的命令">
@@ -185,7 +185,7 @@
                   <i class="far fa-calendar-check"></i>
                 </span>
                 <span class="post-meta-item-text">Edited on</span>
-                <time title="Modified: 2020-12-15 11:00:14" itemprop="dateModified" datetime="2020-12-15T11:00:14+08:00">2020-12-15</time>
+                <time title="Modified: 2020-12-15 11:04:38" itemprop="dateModified" datetime="2020-12-15T11:04:38+08:00">2020-12-15</time>
               </span>
             <span class="post-meta-item">
               <span class="post-meta-item-icon">
@@ -259,6 +259,7 @@
 </li>
 </ol>
 <p>那我们开始吧！</p>
+<a id="more"></a>
 <h2 id="裸机运行-Prometheus-概念验证"><a href="#裸机运行-Prometheus-概念验证" class="headerlink" title="裸机运行 Prometheus 概念验证"></a>裸机运行 Prometheus 概念验证</h2><p>首先第一直觉是在裸机上做概念验证，先跑起来再对进一步的配置做实验，最终，当我们理解了 Prometheus 的各个配置项之后，重新部署到 K8s 上应当是信手拈来。</p>
 <blockquote>
 <p>我想尝试偷懒，搜索教程博客之后发现都不清不楚并且大部分都已经过期了，结果浪费半天时间还得老老实实去官网读文档。</p>
